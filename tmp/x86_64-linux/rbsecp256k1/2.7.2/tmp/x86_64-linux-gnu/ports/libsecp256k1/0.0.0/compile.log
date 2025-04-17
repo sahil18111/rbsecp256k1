@@ -1,0 +1,5 @@
+gcc -I. -g -O2 -Wall -Wextra -Wno-unused-function -c src/gen_context.c -o gen_context.o
+gcc gen_context.o -o gen_context
+./gen_context
+  CC       src/libsecp256k1_la-secp256k1.lo
+  CCLD     libsecp256k1.la
